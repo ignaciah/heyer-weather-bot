@@ -1,0 +1,12 @@
+{
+  "name": "heyer-weather-bot",
+  "type": "cron",
+  "schedule": "0 8 * * *",
+  "buildCommand": "npm install",
+  "startCommand": "node index.js",
+  "envVars": {
+    "OPENWEATHER_API_KEY": "your_key",
+    "FACEBOOK_PAGE_ACCESS_TOKEN": "your_token",
+    "FACEBOOK_PAGE_ID": "your_id"
+  }
+}
