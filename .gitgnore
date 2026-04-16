@@ -1,0 +1,33 @@
+# Environment variables (contains secrets)
+
+.env
+
+
+
+# Node modules
+
+node_modules/
+
+
+
+# Logs
+
+*.log
+
+npm-debug.log*
+
+
+
+# OS metadata
+
+.DS_Store
+
+Thumbs.db
+
+
+
+# IDE folders
+
+.vscode/
+
+.idea/
